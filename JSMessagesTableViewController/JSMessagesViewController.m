@@ -339,7 +339,7 @@
                                                                       inputViewFrame.size.height + changeInHeight);
                          }
                          completion:^(BOOL finished) {
-                             if(isShrinking)
+//                             if(isShrinking)
                                  [self.inputToolBarView adjustTextViewHeightBy:changeInHeight];
                          }];
         
